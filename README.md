@@ -1,4 +1,4 @@
-# Getaround — Delay Analysis & Pricing Optimization (Deployment Project)
+# Getaround — Machine Learning Prediction API & Dashboard Deployment (CDSD · Jedha · Bloc 5)
 
 Getaround is a peer-to-peer car rental platform where late vehicle returns can disrupt subsequent rentals and impact both customer satisfaction and owner revenues. This project analyzes rental delays to evaluate policy trade-offs and deploys a machine learning model for dynamic pricing optimization.
 
