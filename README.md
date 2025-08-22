@@ -14,10 +14,9 @@ Both are hosted in production on Hugging Face Spaces.
 ## 1. Delay Analysis (Streamlit Dashboard)
 
 ### Purpose
-Quantify the operational and financial impact of late returns and test policies for enforcing a minimum delay between rentals.  
+Quantify the impact of late returns and test policies for enforcing a minimum delay between rentals.  
 
 ### Analyses implemented
-- Percentage of owner revenue affected by enforcing different delay thresholds.  
 - Number of rentals blocked under various configurations (all cars vs. *Connect* cars only).  
 - Distribution of late check-ins and impact on the next driver.  
 - Estimation of problematic cases resolved by different policy thresholds.  
