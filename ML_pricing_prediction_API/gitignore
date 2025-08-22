@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editors / OS
+*.swp
+*.DS_Store
+
+# Virtual envs
+.env
+.venv
+
+# Large binary model; keep it out of git if you use GitHub mirroring
+RF_model.joblib
