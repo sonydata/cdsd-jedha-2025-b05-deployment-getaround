@@ -67,6 +67,7 @@ response = requests.post(
 )
 
 print(response.json())
+```
 
 ## 3. Pricing Streamlit App
 
