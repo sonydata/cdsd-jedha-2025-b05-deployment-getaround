@@ -1,6 +1,6 @@
 # Getaround — Delay Analysis & Pricing Optimization (Deployment Project)
 
-It covers both **data analysis for delay management** and a **machine learning API for pricing optimization**, deployed online with **Streamlit dashboards** and a **/predict endpoint**.
+Getaround is a peer-to-peer car rental platform where late vehicle returns can disrupt subsequent rentals and impact both customer satisfaction and owner revenues. This project analyzes rental delays to evaluate policy trade-offs and deploys a machine learning model for dynamic pricing optimization.
 
 This repository contains two main components:  
 
