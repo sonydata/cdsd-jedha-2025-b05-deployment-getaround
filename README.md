@@ -25,7 +25,6 @@ Quantify the operational and financial impact of late returns and test policies 
 ### Deployment
 - **Production app**: [Streamlit Delay Analysis](https://huggingface.co/spaces/sony9316/Streamlit-delay-analysis)  
 - **Source code**: `Delay_analysis_dashboard_Streamlit/`  
-- **Replication**: deploy the folder on Hugging Face Spaces using a **Streamlit template**.  
 
 ---
 
@@ -38,7 +37,6 @@ Train and deploy a supervised ML model to predict optimal rental prices based on
 - **Endpoint**: [POST /predict](https://sony9316-getaround-pricing-api.hf.space/predict)  
 - **Swagger Docs**: [API Documentation](https://sony9316-getaround-pricing-api.hf.space/docs)  
 - **Source code**: `ML_pricing_prediction_API/`  
-- **Deployment**: Hugging Face Spaces with **Docker template**.  
 
 ### Example API request (inference)
 
@@ -69,3 +67,17 @@ response = requests.post(
 )
 
 print(response.json())
+
+## 3. Pricing Streamlit App
+
+**Purpose**  
+Provide a user-friendly web interface to interact with the pricing model without needing to query the API directly.  
+
+**Features**  
+- Input car characteristics (model, mileage, fuel, options, etc.).  
+- Submit request to the deployed pricing API.  
+- Display predicted rental price in real time.  
+
+**Deployment**  
+- Production app: [Streamlit Pricing App](https://huggingface.co/spaces/sony9316/Getaround_pricing_streamlit)  
+- Source code: `ML_pricing_prediction_Streamlit/`  
